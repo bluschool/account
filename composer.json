@@ -1,0 +1,20 @@
+{
+    "name": "bluschool/account",
+    "description": "Account for Administrator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "m4ch1n3",
+            "email": "shawonism@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "classmap": [
+        "resources/database/migrations"
+      ],
+      "psr-4": {
+        "\\Bluschool\\Account\\" : "vendor/bluschool/account/src/"
+      }
+    }
+}
